@@ -1,0 +1,9 @@
+# ninja log v5
+13	1435	6978619982640279	CMakeFiles/ex04_David_Maroko_Meir_Benin.dir/src/Node.cpp.obj	9ad269483ca8375
+10	1820	6978619986489857	CMakeFiles/ex04_David_Maroko_Meir_Benin.dir/src/StageGenerator.cpp.obj	458d0361ff21da7c
+0	2240	6978619990697275	CMakeFiles/ex04_David_Maroko_Meir_Benin.dir/src/Graph.cpp.obj	525d8d0d4e7ef3ed
+19	5584	6978620024004090	CMakeFiles/ex04_David_Maroko_Meir_Benin.dir/src/Game.cpp.obj	a521584f7d5903ae
+4	5585	6978620024040116	CMakeFiles/ex04_David_Maroko_Meir_Benin.dir/src/main.cpp.obj	5313958f1c483332
+16	5671	6978620024998304	CMakeFiles/ex04_David_Maroko_Meir_Benin.dir/src/CircleTheCat.cpp.obj	4c6e85d8d0fc0447
+6	5737	6978620025694984	CMakeFiles/ex04_David_Maroko_Meir_Benin.dir/src/Display.cpp.obj	3d13e758ab9d656a
+5737	6195	6978620030262539	ex04_David_Maroko_Meir_Benin.exe	712143636fb0c11d

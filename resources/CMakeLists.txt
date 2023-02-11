@@ -1,0 +1,5 @@
+﻿file (MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/resources)
+configure_file ("cat.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("clickCount.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("Montserrat-SemiBold.ttf" ${CMAKE_BINARY_DIR}/resources COPYONLY)
+configure_file ("undo.png" ${CMAKE_BINARY_DIR}/resources COPYONLY)
