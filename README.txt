@@ -1,23 +1,62 @@
-Ex4-circle the cat
-***********************
-students:
-david maroko,id:313360307
-meir benin,id:315351031
-******************************************
-After the game starts with the game manager,
-The game consists of three parts:
-**************************************************
-data structures:
+# Circle the Cat
 
-Node: Represents a vertex in the graph
-Graph Class: This is a generic class that handles a graph of nomads. 
-Performs, among other things, a quick search for a path from source to target
- using a bfs-based algorithm that offers fast run time
-***************************************************************
-Game and logic of the game:
+**Circle the Cat** is a strategic game where the objective is to trap a virtual cat on a hexagonal grid by blocking its potential moves. The game is structured into three main parts, focusing on data structures, game logic, and graphical display. Written in **C++** (CMake)
 
-circleTheCat : is responsible for the course of the game itself. Queuing and checking the logic in each move and on the undo button
-******************************************************************
-display on the screen:
-Display: Display Department. Responsible for the display only. 
-Does not mess with a nod or graph and in fact is also a bit generic
+---
+
+## Game Overview
+
+The game consists of the following key components:
+
+### 1. **Data Structures**
+- **Node:**  
+  Represents a vertex in the graph, forming the foundation of the game's grid.
+  
+- **Graph Class:**  
+  A generic class for handling a graph of nodes. Key features include:  
+  - **Efficient Pathfinding:** Implements a fast search for a path from a source to a target using a BFS-based algorithm.  
+  - **Versatility:** Designed to support the game's dynamic requirements with a focus on performance.  
+
+---
+
+### 2. **Game Logic**
+- **circleTheCat:**  
+  This class manages the game flow and logic, including:
+  - Queuing and processing each player's move.
+  - Validating the game's rules at every step.
+  - Supporting the **Undo** functionality, allowing players to backtrack their moves.  
+
+---
+
+### 3. **Graphical Display**
+- **Display Module:**  
+  - Handles all visual rendering for the game.  
+  - Fully isolated from the game's data structures (`Node`, `Graph`).  
+  - Designed to be modular and somewhat generic for potential reuse in other applications.  
+
+---
+
+## How to Play
+
+1. **Start the Game:**  
+   Launch the game through the game manager, which initializes the grid and places the cat.  
+
+2. **Objective:**  
+   The goal is to strategically block the cat's potential moves and prevent it from escaping the grid.  
+
+3. **Controls:**  
+   - Place a block by clicking on a tile.  
+   - Use the **Undo** button to revert a move.  
+
+4. **Winning:**  
+   The player wins if the cat is completely surrounded and cannot move.  
+
+---
+
+## Technical Details
+
+### Algorithms and Efficiency
+- The **Graph Class** employs a Breadth-First Search (BFS) algorithm to quickly calculate paths and validate potential moves.  
+- The separation of logic, data structures, and display ensures clean and maintainable code.  
+
+---
